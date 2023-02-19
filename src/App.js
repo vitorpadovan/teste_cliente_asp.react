@@ -11,8 +11,8 @@ import HomePage from './pages/home/HomePage';
 
 const setores = [
   { id: 0, titulo: "Home Page", widget: <HomePage />, link: "/" },
-  { id: 1, titulo: "Cadastro Clientes", widget: <CadCliente />, link: "/teste" },
-  { id: 2, titulo: "Listar clientes", widget: <LstCliente />, link: "/teste2" }
+  { id: 1, titulo: "Cadastro Clientes", widget: <CadCliente />, link: "/cliente" },
+  { id: 2, titulo: "Listar clientes", widget: <LstCliente />, link: "/listaCliente" }
 ];
 
 const Menu = () => {
