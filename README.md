@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Referemces
+- [React-Bootstrap based date picker.](https://www.npmjs.com/package/react-bootstrap-date-picker)
+- [Saiba como adicionar máscara em React na criação de formulários](https://coodesh.com/blog/candidates/carreiras/saiba-como-adicionar-mascara-em-react-na-criacao-de-formularios/)
