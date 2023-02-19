@@ -97,7 +97,7 @@ function CadCliente(props) {
         setObjeto(initialState);
     }
     return <>
-        <div className="square rounded border p-3 m-auto my-5 w-75">
+        <div className="square rounded border p-3 m-auto my-5 w-75 ">
             <Form.Group className="mb-3">
                 <Form.Label>Nome do cliente</Form.Label>
                 <Form.Control type="text"
@@ -220,7 +220,10 @@ function CadCliente(props) {
             </ToastContainer>
 
         </div>
-        <AlertaDesenvolvimento /></>
+        <div className="d-flex align-items-center justify-content-center ">
+            <AlertaDesenvolvimento />
+        </div>
+    </>
 }
 
 export default CadCliente;

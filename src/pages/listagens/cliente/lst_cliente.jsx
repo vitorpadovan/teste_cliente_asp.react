@@ -15,7 +15,9 @@ function LstCliente(props) {
         <div className="square m-auto my-5 w-75">
             <ListaCliente clientes={clientes} />
         </div>
-        <AlertaDesenvolvimento />
+        <div className="d-flex align-items-center justify-content-center ">
+            <AlertaDesenvolvimento />
+        </div>
     </>
 }
 
