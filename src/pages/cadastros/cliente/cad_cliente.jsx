@@ -8,7 +8,8 @@ import { IMaskInput } from "react-imask";
 import Snack from "../../../components/snackbar/snackbar";
 import clienteService from "../../../services/cliente_service";
 import { ToastContainer } from 'react-bootstrap';
-import AlertaDesenvolvimento from "../../../components/alerta_desenvolvimento/alerta_desenvolvimento";
+// import AlertaDesenvolvimento from "../../../components/alerta_desenvolvimento/alerta_desenvolvimento";
+import OffLine from "../../../components/off_line/OffLine";
 
 function CadCliente(props) {
     const today = new Date();
@@ -221,7 +222,7 @@ function CadCliente(props) {
 
         </div>
         <div className="d-flex align-items-center justify-content-center ">
-            <AlertaDesenvolvimento />
+            <OffLine />
         </div>
     </>
 }

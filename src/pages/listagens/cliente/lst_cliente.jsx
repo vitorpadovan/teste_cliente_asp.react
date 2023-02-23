@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import AlertaDesenvolvimento from "../../../components/alerta_desenvolvimento/alerta_desenvolvimento";
+// import AlertaDesenvolvimento from "../../../components/alerta_desenvolvimento/alerta_desenvolvimento";
 import ListaCliente from "../../../components/lista_cliente/lista_cliente";
+import OffLine from "../../../components/off_line/OffLine";
 import clienteService from "../../../services/cliente_service";
 
 function LstCliente(props) {
@@ -16,7 +17,7 @@ function LstCliente(props) {
             <ListaCliente clientes={clientes} />
         </div>
         <div className="d-flex align-items-center justify-content-center ">
-            <AlertaDesenvolvimento />
+            <OffLine />
         </div>
     </>
 }
