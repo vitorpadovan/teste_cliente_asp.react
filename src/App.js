@@ -8,7 +8,7 @@ import CadCliente from "./pages/cadastros/cliente/cad_cliente.jsx";
 import LstCliente from "./pages/listagens/cliente/lst_cliente.jsx";
 import { LinkContainer } from "react-router-bootstrap";
 import HomePage from "./pages/home/HomePage";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 
 const setores = [
   { id: 0, titulo: "Home Page", widget: <HomePage />, link: "/" },
